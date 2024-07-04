@@ -3,7 +3,6 @@
     'url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?cs=srgb&dl=pexels-joshkjack-135018.jpg&fm=jpg")',
     'url("https://bwvision.com/wp-content/uploads/2023/02/Doha-Skyline-with-Burj-Doha-no-border.jpg")',
     'url("https://www.londonfineartphotography.co.uk/wp-content/uploads/2018/09/Building.jpg")'
-    // Add more image URLs as needed
 ];
 
 let currentIndex = 0;
