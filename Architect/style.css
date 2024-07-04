@@ -89,6 +89,7 @@
 }
 .change-img{
     /* border: 2px solid green; */
+    transition: all 0.5s linear;
     background-image: url(https://www.popphoto.com/uploads/2019/01/04/YYSUPG6ZZHM3IIOPABLJMBCGFE.jpg?auto=webp);
     background-repeat: no-repeat;
     background-position: center;
