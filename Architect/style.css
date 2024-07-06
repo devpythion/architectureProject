@@ -9,12 +9,35 @@
     /* justify-content: center;  */
 
 }
+.bg-color{
+    height: 5vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bg-color{
+    margin-top: 0px;
+    padding-right: 80px;
+}
 .search{
     background-color: rgb(255, 255, 255);
     border-color: black;
     font-size: 1.1rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 20px 80px 20px 0;
+}
+#bg-color{
+    font-family:Poppins ;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px ;
 }
 .nav-bar{
     /* border: 2px solid red; */
@@ -57,7 +80,6 @@
 .nav-bar .button li a:hover{
     text-decoration: underline;
     color: black;
-    list-style: none;
 }
 .image{
     /* border: 2px solid red; */
@@ -90,7 +112,7 @@
 .change-img{
     /* border: 2px solid green; */
     filter: grayscale(100%);
-    transition: all 1s linear;
+    transition: background-image 0.5s;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -98,22 +120,26 @@
     opacity: 0.8;
     width: 85%;
     height: 95%;
-    /* margin-le: 5%; */
     display: flex;
     justify-content: end;
     align-items: end;
 }
+
 .swap{
     background-color: rgb(255, 255, 255);
     height: 10%;
-    width: 100px;
+    width: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: Poppins;
-    font-weight: 600;
     font-size: 2em;
     margin: 0 5px 5px;
+    cursor: pointer;
+}
+.swap p:hover{
+    transform: scale(2);
+    transition: all 0.5s linear;
 }
 .date{
     font-family: Poppins;
@@ -243,7 +269,7 @@
 }
 .cards-2 button{
     background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     border-radius: 0px;
     /* margin-left: 20px; */
@@ -279,8 +305,8 @@
     text-decoration: none;
     color: black;
 }
-.footer li a:hover{
-    text-decoration: underline;
+.footer li:hover{
+    transform: scale(1.2);
 }
 .bottom-bar p{
     text-align: center;
@@ -357,4 +383,7 @@
 }
 .cont-1 p,h2{
     margin-left: 20px;
+}
+button{
+    font-family: Poppins;
 }
