@@ -54,7 +54,7 @@ function resetColor() {
     document.getElementById('nav-list3').style.color = '';
     document.getElementById('nav-list4').style.color = '';
     document.getElementById('nav-list5').style.color = '';
-    document.querySelector('.text-over-img').style.borderColor='   ';
+    document.querySelector('.text-over-img').style.borderColor='black';
 }
 
 document.getElementById('bg-color').addEventListener('click', () => {
